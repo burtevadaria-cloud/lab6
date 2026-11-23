@@ -125,7 +125,7 @@ done
 ![Обновлённая схема инфраструктуры](images/схема%20лаб6.drawio.png)
 
 **Архитектурное решение:**  
-[docs/adr/0005-session-storage.md](../adr/0005-session-storage.md)
+[docs/adr/0005-session-storage.md](adr/0005-session-storage.md)
 
 В ADR рассмотрены три альтернативы: локальное хранение сессий со Sticky Sessions, таблица сессий в RDS и Amazon DynamoDB. Выбран DynamoDB, поскольку он предоставляет общее масштабируемое хранилище сессий, поддерживает TTL и не зависит от работы основной базы PostgreSQL.
 
